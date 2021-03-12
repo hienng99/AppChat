@@ -1,5 +1,5 @@
 //Tao socket ket noi toi localhost
-const socket = io("http://localhost:3000")
+const socket = io("https://appchatofnvh.herokuapp.com")
 
 //Lang nghe su kien thong bao dang ki that bai tu server
 socket.on('server-send-dki-thatbai', function(){
